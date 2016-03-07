@@ -88,5 +88,3 @@ print u"进程内存rss/vms信息: {} .".format(p.memory_info())
 print u"进程io信息: {} .".format(p.io_counters())
 print u"返回打开进程socket的namedutples列表: {} .".format(p.connections())
 print u"进程开启的线程数: {} .".format(p.num_threads())
-
-print "================================================"
