@@ -3,7 +3,7 @@
 
 from fabric.api import local, lcd
 
-def setting_ci():
+def github():
     with lcd('/Users/milo/Coding/py/autoops_tools_demo/'):
         local('git add .')
         local('git commit -m "auto module test."')
